@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marco Litzius</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #fff;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .card {
+    text-align: center;
+    padding: 64px 24px 40px;
+    max-width: 360px;
+    width: 100%;
+  }
+  img {
+    width: 200px;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 28px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+  a.email {
+    color: #555;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1px;
+  }
+  a.email:hover { color: #000; border-color: #999; }
+  .save {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #888;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+  .save:hover { color: #111; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <img src="photo.jpg" alt="Foto von Marco Litzius">
+    <h1>Marco Litzius</h1>
+    <a class="email" href="mailto:marco.litzius@gmail.com">marco.litzius@gmail.com</a><br>
+    <a class="save" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AMarco%20Litzius%0AEMAIL%3Amarco.litzius%40gmail.com%0AEND%3AVCARD" download="marco-litzius.vcf">+ Kontakt speichern</a>
+  </main>
+</body>
+</html>
